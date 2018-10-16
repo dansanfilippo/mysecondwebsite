@@ -1,0 +1,72 @@
+body{
+    font-family: Helvetica, "Helvetica Neue", sans-serif;
+}
+#box1{
+
+    background-color:blue;
+    float: left;
+
+
+}
+#box2{
+    background-color:green;
+    float: left;
+
+}
+#box3{
+    background-color:red;
+    clear: left;
+    float: left;
+}
+#box4{
+    background-color:teal;
+    float:left;
+
+
+}
+
+.box {
+    height: 36px;
+    width: 36px;
+    border: black 1px solid;
+
+    padding: 7px;
+}
+#wrapper{
+    width:960px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu{
+    background-color: antiquewhite;
+    height:25px;
+    line-height:25px;
+}
+#menu ul{
+    margin: 0;
+
+}
+#menu li{
+    display: inline;
+}
+#content{
+    width: 544px;
+    background-color:green;
+    float: left;
+    padding-left:24px;
+    padding-right:24px;
+    line-height: 27px;
+
+}
+#sidebar{
+    background-color: chocolate;
+    width: 366px;
+    float:left;
+
+}
+#footer{
+    background-color: bisque;
+    clear: left;
+}
